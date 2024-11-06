@@ -1,0 +1,627 @@
+print("Sogga Cost: 150")
+print("Chop Cost: 750")
+print("WawaCat Cost: 500")
+print("Yipee Cost: 100")
+print("Catnip Cost: 300")
+print("RocketCat Cost: 800")
+print("Capybara Cost: 1500")
+print("PartyGato Cost: 600")
+print("HallowsJinx Cost: 2850")
+print("Golly Cost: 900")
+print("PlaceHolderCube Cost: 550")
+print("Salado Cost: 250")
+print("CatBase Cost: 1750")
+print("Ember Cost: 1200")
+print("Cow Cost: 275")
+print("CorruptedFloppa Cost: 100")
+print("FloppaGunner Cost: 7150")
+print("Catto Cost: ???")
+print("Bunny Cost: 750")
+print("ElGato Cost: 400")
+print("Doge Cost: 480")
+print("Floppa Cost: 50")
+print("Chomik Cost: 650")
+print("ChromeDino Cost: 130")
+print("JinxCat Cost: 250")
+print("Kotek Cost: 2500")
+print("MsFloppa Cost: 400")
+print("Nyanko Cost: 375")
+print("Pablo Cost: 175")
+print("Gyakko Cost: 525")
+print("FloppaGolem Cost: 625")
+print("AgentDog Cost: 25")
+print("Guppy Cost: 250")
+print("Gatito Cost: 1450")
+print("Critter Cost: 700")
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local window = library:Window("Units 1")
+
+
+window:Button("Floppa : 50", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Floppa",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Sogga : 150", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Sogga",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("AgentDog : 25", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "AgentDog",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Yipee : 100", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Yipee",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Pablo : 175", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Pablo",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Guppy : 250", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Guppy",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Salado : 250", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Salado",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Cow : 275", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Cow",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("CatNip : 300", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "CatNip",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("ElGato : 400", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "ElGato",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("MsFloppa : 400", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "MsFloppa",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Jinxcat : 250", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "JinxCat",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("WawaCat : 500", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "WawaCat",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Gyakko : 525", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Gyakko",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+
+window:Button("PlaceHolderCube : 550", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "PlaceHolderCube",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+local window = library:Window("Units 2")
+
+
+window:Button("Chomik : 650", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Chomik",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("PartyGato : 600", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "PartyGato",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Critter : 700", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Critter",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Chop : 750", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Chop",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("RocketCat : 800", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "RocketCat",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Golly : 900", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Golly",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Gatito : 1450", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Gatito",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("CapyBara : 1500", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "CapyBara",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("CatBase : 1750", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "CatBase",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Ember : 1200", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Ember",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Kotek : 2500", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Kotek",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Doge : 480", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Doge",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Nyanko : 375", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Nyanko",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("FloppaGunner : 7150", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "FloppaGunner",
+        [2] = humanoidRootPart.CFrame
+    }
+
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+local window = library:Window("Secret/Event Units")
+
+
+window:Button("CorruptedFloppa : 100", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "CorruptedFloppa",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("ChromeDino : 130", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "ChromeDino",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("FloppaGolem : 625", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "FloppaGolem",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Bunny : 750", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Bunny",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("HallowsJinx : 2850", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "HallowsJinx",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+window:Button("Catto : 2250", function()
+    local player = game.Players.LocalPlayer
+    local character = player.Character or player.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+
+    local args = {
+        [1] = "Catto",
+        [2] = humanoidRootPart.CFrame
+    }
+
+game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
+end)
+
+local window = library:Window("Other")
+
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+window:Box("Walkspeed", function(text, focuslost)
+    if focuslost then
+        
+        local walkspeed = tonumber(text)
+        
+        if walkspeed then
+            
+            local character = localPlayer.Character
+            if character and character:FindFirstChild("Humanoid") then
+                character.Humanoid.WalkSpeed = walkspeed
+                print("Walkspeed set to " .. walkspeed)
+            else
+                print("Character not found.")
+            end
+        else
+            print("Invalid input. Please enter a number.")
+        end
+    end
+end)
+
+
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+window:Box("JumpPower", function(text, focuslost)
+    if focuslost then
+        
+        local jumpPower = tonumber(text)
+        
+        if jumpPower then
+            
+            local character = localPlayer.Character
+            if character and character:FindFirstChild("Humanoid") then
+                character.Humanoid.JumpPower = jumpPower
+                print("Jump power set to " .. jumpPower)
+            else
+                print("Character not found.")
+            end
+        else
+            print("Invalid input. Please enter a number.")
+        end
+    end
+end)
+
+
+local isDestroying = false 
+
+window:Toggle("Destroy Servers room", false, function(bool)
+    isDestroying = bool
+
+    if isDestroying then
+        while isDestroying do
+            local args = {
+                [1] = 4,
+                [2] = ""
+            }
+
+            game:GetService("ReplicatedStorage").Events.CreateServer:FireServer(unpack(args))
+            wait(1)
+        end
+    end
+end)
+
+local dropdown = window:Dropdown("Other Scripts", {"Infinite Yield", "Remote Spy", "Dex"}, function(name)
+    if name == "Infinite Yield" then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    elseif name == "Remote Spy" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+    elseif name == "Dex" then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end
+end)
+
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+
+
+local label = window:Label("Credits to 1x98n6ex6", Color3.fromRGB(255, 255, 255))
+
+
+local function rainbowEffect()
+    local hue = 0
+
+    RunService.RenderStepped:Connect(function()
+    
+        hue = (hue + 0.001) % 1
+
+        local r, g, b = Color3.fromHSV(hue, 1, 1):ToRGB()
+        label.TextColor = Color3.fromRGB(r * 255, g * 255, b * 255)
+    end)
+end
+
+
+rainbowEffect()
+
+window:Label("Keybind is H", Color3.fromRGB(255, 255, 255))
+
+library:Keybind("H")
