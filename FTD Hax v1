@@ -342,13 +342,13 @@ window:Button("Gatito : 1450", function()
 game:GetService("ReplicatedStorage").Functions.SpawnTower:InvokeServer(unpack(args))
 end)
 
-window:Button("CapyBara : 1500", function()
+window:Button("Capybara : 1500", function()
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
     local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 
     local args = {
-        [1] = "CapyBara",
+        [1] = "Capybara",
         [2] = humanoidRootPart.CFrame
     }
 
